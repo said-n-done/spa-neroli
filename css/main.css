@@ -1,0 +1,97 @@
+/* Spa Neroli - feuille de style principale, 2019.
+   Ne pas supprimer .en-tete-ancien -- on l'a gardee au cas ou on revienne
+   au look d'origine pour le spa d'hiver. (On n'y est jamais revenu.) */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #3c332c;
+  background: #f7f2ec;
+}
+
+a {
+  color: #7a5c46;
+}
+
+.en-tete-ancien {
+  background: #efe6da;
+  color: #3c332c;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 2px solid #c9ab86;
+}
+
+.en-tete {
+    background: #7a5c46;
+    color: #fdf8f2;
+    padding: 20px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.en-tete .marque {
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.en-tete nav a {
+  color: #fdf8f2;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 14px;
+}
+
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 44px 24px;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+.bouton-primaire {
+  display: inline-block;
+  background: #c9ab86;
+  color: #3c332c;
+  padding: 11px 24px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.bouton_primaire {
+  display: inline-block;
+  background: #c9ab86;
+  color: #3c332c;
+  padding: 7px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.horaires {
+  background: #efe6da;
+  padding: 18px 22px;
+  border-radius: 3px;
+}
+
+footer {
+  background: #3c332c;
+  color: #cdbfae;
+  padding: 26px;
+  text-align: center;
+  font-size: 13px;
+}
+
+footer a {
+  color: #cdbfae;
+}

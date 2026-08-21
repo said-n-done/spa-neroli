@@ -1,0 +1,20 @@
+/* Rafraichissement printemps 2023 -- nouvelle promo saisonniere + un bouton
+   plus compact pour la barre de navigation. Charge apres main.css partout. */
+
+.promo-saison {
+  background: #e4d4bd;
+  padding: 22px 26px;
+  border-radius: 3px;
+  margin-bottom: 26px;
+}
+
+.promo-saison h2 {
+  margin-top: 0;
+}
+
+/* Juste pour le petit lien "Reserver" dans la nav -- le garder compact pour
+   ne pas surcharger le logo. */
+.btn {
+  padding: 6px 14px;
+  font-size: 11px;
+}
